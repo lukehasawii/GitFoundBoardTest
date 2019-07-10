@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+//Placeholder
 
    public void playSound(View v) {
         //Place music files in file called raw, then after that the name of the file

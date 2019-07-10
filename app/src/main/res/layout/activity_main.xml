@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
 
 
     <LinearLayout
@@ -33,11 +31,11 @@
             android:id="@+id/buttonA"
             android:onClick="playSound"
             android:textColor="@android:color/white"
-            android:background="#bf0b01"
+            android:background="#af0000"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="20dp"
             />
 
 
@@ -47,11 +45,11 @@
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="20dp"
             android:text="Placeholder"
             android:textSize="20dp"
             android:onClick="playSound"
-            android:background="#d67b04"
+            android:background="#b54c01"
             android:textColor="@android:color/white"/>>
         <Button
             android:layout_width="match_parent"
@@ -64,8 +62,11 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="#fccb07"
-            android:textColor="@android:color/white"/>
+            android:background="#d6a208"
+            android:textColor="@android:color/white"
+
+
+            />
 
         <Button
             android:layout_width="match_parent"
@@ -78,7 +79,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="#158e02"
+            android:background="#1b5e20"
             android:textColor="@android:color/white"/>
 
     </LinearLayout>
