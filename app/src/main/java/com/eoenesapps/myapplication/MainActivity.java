@@ -1,6 +1,7 @@
 package com.eoenesapps.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.LinearLayoutCompat;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -19,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         getSupportActionBar().hide();
+
+
         setContentView(R.layout.activity_main);
     }
 //Placeholder

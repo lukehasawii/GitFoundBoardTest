@@ -22,10 +22,10 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:fontFamily="sans-serif-smallcaps"
-                android:padding="20dp"
+                android:padding="10dp"
                 android:text="Foundboard"
                 android:textColor="@android:color/white"
-                android:textSize="48dp" />
+                android:textSize="36dp" />
         </RelativeLayout>
 
 
@@ -44,14 +44,14 @@
             android:id="@+id/buttonA"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:layout_weight="1"
             android:background="#af0000"
             android:onClick="playSound"
 
             android:text="Placeholder"
             android:textColor="@android:color/white"
-            android:textSize="20dp"
+            android:textSize="24dp"
 
             />
 
@@ -61,12 +61,12 @@
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:layout_height="match_parent"
-            android:layout_margin="20dp"
+            android:layout_margin="10dp"
             android:background="#b54c01"
             android:onClick="playSound"
             android:text="Placeholder"
             android:textColor="@android:color/white"
-            android:textSize="20dp" />
+            android:textSize="24dp" />
 
             </TableRow>
 
@@ -84,13 +84,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:layout_margin="20dp"
+                    android:layout_margin="10dp"
                     android:background="#d6a208"
                     android:onClick="playSound"
 
                     android:text="Placeholder"
                     android:textColor="@android:color/white"
-                    android:textSize="20dp"
+                    android:textSize="24dp"
 
 
                     />
@@ -100,7 +100,7 @@
                     android:id="@+id/buttonD"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="20dp"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:background="#1b5e20"
                     android:onClick="playSound"
@@ -108,7 +108,7 @@
                     android:text="Placeholder"
                     style="@style/TextAppearance.AppCompat.Button"
                     android:textColor="@android:color/white"
-                    android:textSize="20dp" />
+                    android:textSize="24dp" />
             </TableRow>
             <TableRow
                 android:layout_weight="1"
@@ -121,14 +121,14 @@
                     android:id="@+id/buttonReplay"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="20dp"
+                    android:layout_margin="15dp"
                     android:layout_weight="1"
                     android:background="#037f71"
                     android:onClick="playSound"
                     android:text="Replay"
                     style="@style/TextAppearance.AppCompat.Button"
                     android:textColor="@android:color/white"
-                    android:textSize="48dp"
+                    android:textSize="36dp"
                     android:fontFamily="sans-serif-smallcaps"/>
 
             </TableRow>
