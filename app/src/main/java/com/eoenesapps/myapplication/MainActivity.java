@@ -26,10 +26,12 @@ public class MainActivity extends AppCompatActivity {
     }
 //Placeholder
 
-   public void playSound(View v) throws InterruptedException {
+   public void playSound(View v) {
         //Place music files in file called raw, then after that the name of the file
        MediaPlayer mp = MediaPlayer.create(this, R.raw.heavyrain); //Placeholder file, change heavyrain to change what sound file it's playing
        mp.start();
+
+
 
 
 
