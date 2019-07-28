@@ -6,6 +6,8 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 
+import com.eoenesapps.myapplication.R;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
